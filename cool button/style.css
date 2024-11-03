@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(42, 58, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    width: 200px;
+    height: 100px;
+    border: 3px solid white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.click {
+    background: white;
+    height: calc(100% - 10px);
+    border-radius: 10px;
+    transition: all 0.25s ease;
+}
+
+.small-width {
+    width: 70px;
+}
+
+.full-width {
+    width: calc(100% - 10px);
+}
+
+.left-margin {
+    margin: auto auto auto 5px;
+}
+
+.right-margin {
+    margin: auto 5px auto auto;
+}
